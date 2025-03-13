@@ -1,0 +1,148 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style type="text/css">
+        *{
+            box-sizing: border-box;
+        }
+        html,body{
+            margin: 0;
+            padding: 0;  
+        }
+        #topbar{
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 80px;
+            width: 100%;
+            background: white;
+            box-shadow: 0 10px 20px rgba(0,0,0,0.30),0 11px 8px rgba(0,0,0,0.22);
+            font-size: 25px;
+            padding: 8dp;
+        }
+        .nav-bar{
+            background: url(media/img1.jpg);
+            width: 30%;
+            height: 100%;
+            position: fixed;
+            top: 80px;
+            left: 0px;
+            overflow-y: auto;
+        }
+        .nav-bar a{
+            text-decoration: none;
+            color: black;
+            display: block;
+        }
+        .nav-bar>ul{
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+        .nav-bar>ul>li>a{
+            padding: 10px;
+            background: rgb(5, 170, 247);
+            color: white;
+        }
+        .nav-bar>ul>li>a:hover{
+            background: #173459;
+            color: white;
+        }
+        .nav-bar .active{
+            background: #173459;
+            color: white;
+        }
+        .nav-bar li{
+           
+        }
+        .nav-bar li :last-child{
+            border: none;
+        }
+        .content{
+            margin-left: 30%;
+            width: 70%;
+            padding: 15px;
+        }
+        #logo{
+            height: 50px;
+            width: 80px;
+           float: left;
+        }
+#inq{
+    width: 100%;
+   border: 1px solid gray;
+   color: black;
+   height: 40px;
+   border-radius: 5px;
+}
+#bcontent{
+    box-shadow: 18px 18px 18px 18px rgba(0,0,0,0.30) ;
+    margin: 0 auto;
+    padding: 10px;
+    margin: 10px;
+}
+#flo{
+    float: right;
+    font-size: 20px;
+    right: 8dp;
+}
+#box{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#user{
+    height: 30px;
+    width: 40px;
+}
+    </style>
+</head>
+<body>
+    <div id="topbar">
+        <p  style="text-align: center;padding-top: 20px;padding-bottom: 20px;"><img src="mmust logo.jpg" id="logo" alt="logo">  <img src="hum.PNG" alt=""> <span style="color: rgb(28, 81, 161);">MASINDE MULIRO UNIVERSITY OF SCIENCE AND TECHNOLOGY </span>  <span id="flo"><img  id="bell" src="bell icon.PNG" alt=""><span style="font-size: 40px;">| </span><img src="usergroup.png" id="user"> Hi,user</span> </p>
+
+
+
+
+    </div>
+    <div class="nav-bar">
+        <ul>
+            <li><a href="#" >Dashboard</a></li>
+            <li><a href="#">Socials</a></li>
+        <li><a href="#">Message</a></li>
+       <li><a href="#">Addmission</a></li>
+       <li><a href="#">Academic</a></li>
+       <li><a href="#">Repository</a></li>
+       <li><a href="#">Financials</a></li>
+       <li><a href="#">Timetable</a></li>
+      <li><a href="#">Online Survey</a></li>
+      <li><a href="#">Evaluations</a></li>
+      <li><a href="#">Complaints</a></li>
+      <li><a href="#" class="active">FAQs</a></li>
+      <li><a href="#">Virtual Assistant</a></li>
+      <br>
+      <br>
+<li><a href="">@2024 - ABNO Software Internation</a></li>
+    </ul>
+      
+    </div>
+    <div class="content">
+        <p style="color: rgb(91, 91, 148); padding: 9px;";>FAQs</p>
+
+
+
+<div id="bcontent">
+<p style="color: rgb(91, 91, 148);">General Inquries</p>
+<br>
+<input type="text" id="inq" name="inquries" placeholder="  who are viable to use the  Newportal">
+<p style="color: rgb(91, 91, 148);">Others</p>
+
+<img  id="box" src="boxgroup.PNG" alt="box">
+<p  style="text-align: center;font-weight: bold;">No data</p>
+<p style="text-align: center;">No other faq found</p>
+        </div>
+    </div>
+</body>
+</html>
